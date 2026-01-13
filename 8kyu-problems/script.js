@@ -1,0 +1,33 @@
+// Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+function counting() {
+
+  // Array containing boolean values (true / false)
+  let array = [
+    true, true, true, false,
+    true, true, true, true,
+    true, false, true, false,
+    true, false, false, true,
+    true, true, true, true,
+    false, false, true, true
+  ];
+
+  // Variable to store count of true values
+  let count = 0;
+
+  // Loop through the array
+  // IMPORTANT: use i < array.length (not <=)
+  for (let i = 0; i < array.length; i++) {
+
+    // Check if the current element is true
+    if (array[i] === true) {
+      count++; // increase count if true is found
+    }
+  }
+
+  // Print the total count of true values
+  console.log(count);
+}
+
+// Call the function
+counting();
