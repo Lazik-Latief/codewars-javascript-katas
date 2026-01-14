@@ -48,5 +48,10 @@ The task is to count how many sheep are present in the array.
 - Writing clean and readable JavaScript code
 
 ---
+##  2nd Problem:
+- Function to convert a boolean value into a string
+- Input: true or false
+- Output: "true" or "false"
+---
 
 ## This repository will be updated daily with new Codewars challenges and improved solutions.

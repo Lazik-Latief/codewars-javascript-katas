@@ -31,3 +31,24 @@ function counting() {
 
 // Call the function
 counting();
+
+// 2nd Problem:
+// Function to convert a boolean value into a string
+// Input: true or false
+// Output: "true" or "false"
+
+function booleanToString(b) {
+  // String() converts any value to its string representation
+  // true  -> "true"
+  // false -> "false"
+  return String(b);
+}
+
+// ---------------- TEST CASES ----------------
+
+// Expected output: "true"
+console.log(booleanToString(true));
+
+// Expected output: "false"
+console.log(booleanToString(false));
+
