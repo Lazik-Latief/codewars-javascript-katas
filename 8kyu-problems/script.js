@@ -52,3 +52,38 @@ console.log(booleanToString(true));
 // Expected output: "false"
 console.log(booleanToString(false));
 
+
+// 
+/**
+ * Converts a DNA string into RNA
+ * DNA: G C A T
+ * RNA: G C A U (T is replaced by U)
+ *
+ * @param {string} dna
+ * @return {string}
+ */
+function DNAtoRNA(dna) {
+  // Replace all occurrences of 'T' with 'U'
+  return dna.replace(/T/g, 'U');
+}
+
+console.log(DNAtoRNA("GCAT")); // "GCAU"
+console.log(DNAtoRNA("TTTT")); // "UUUU"
+console.log(DNAtoRNA("GACCGCCGCC")); // "GACCGCCGCC"
+
+
+function DNAtoRNA(dna) {
+  let result = "";
+
+  for (let i = 0; i < dna.length; i++) {
+    if (dna[i] === "T") {
+      result += "U";
+    } else {
+      result += dna[i];
+    }
+  }
+
+  return result;
+}
+
+

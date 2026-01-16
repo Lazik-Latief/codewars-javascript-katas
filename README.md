@@ -54,4 +54,13 @@ The task is to count how many sheep are present in the array.
 - Output: "true" or "false"
 ---
 
+##  3rd Problem:
+## Codewars – DNA to RNA Transcription
+
+- Implemented a function to convert DNA strings into RNA.  
+- Replaced all occurrences of Thymine (`T`) with Uracil (`U`).  
+- Practiced string manipulation in JavaScript.  
+- Tested the solution with multiple examples.
+---
+
 ## This repository will be updated daily with new Codewars challenges and improved solutions.
