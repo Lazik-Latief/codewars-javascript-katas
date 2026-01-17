@@ -86,4 +86,71 @@ function DNAtoRNA(dna) {
   return result;
 }
 
+/*
+=====================================================
+Codewars Task: Maximum and Minimum
+=====================================================
+
+TASK:
+-----
+Create two functions:
+1. max() → returns the largest number in the array
+2. min() → returns the smallest number in the array
+
+Each function:
+- Takes an array of integers as input
+- Returns ONE number
+*/
+
+
+// Function to find the maximum number
+function max(numbers) {
+
+    // Assume the first number is the largest
+    let maxValue = numbers[0];
+
+    // Loop through the array
+    for (let i = 1; i < numbers.length; i++) {
+
+        // If current number is greater, update maxValue
+        if (numbers[i] > maxValue) {
+            maxValue = numbers[i];
+        }
+    }
+
+    // Return the largest number
+    return maxValue;
+}
+
+
+// Function to find the minimum number
+function min(numbers) {
+
+    // Assume the first number is the smallest
+    let minValue = numbers[0];
+
+    // Loop through the array
+    for (let i = 1; i < numbers.length; i++) {
+
+        // If current number is smaller, update minValue
+        if (numbers[i] < minValue) {
+            minValue = numbers[i];
+        }
+    }
+
+    // Return the smallest number
+    return minValue;
+}
+
+
+/*
+=====================================================
+EXAMPLES
+=====================================================
+*/
+
+console.log(max([4, 6, 2, 1, 9, 63, -134, 566])); // 566
+console.log(min([4, 6, 2, 1, 9, 63, -134, 566])); // -134
+
+
 

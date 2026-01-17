@@ -63,4 +63,12 @@ The task is to count how many sheep are present in the array.
 - Tested the solution with multiple examples.
 ---
 
+##  3rd Problem:
+## Codewars – Maximum and Minimum.
+- Implemented functions to return largest and smallest values from an array.
+- Practiced array traversal and comparison logic.
+- Improved understanding of basic algorithm design.
+- Part of daily JavaScript practice.
+
+
 ## This repository will be updated daily with new Codewars challenges and improved solutions.
